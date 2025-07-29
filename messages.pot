@@ -1,0 +1,877 @@
+# Translations template for ARZi.
+# Copyright (C) 2025 ARZi LLC
+# This file is distributed under the same license as the ARZi project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-02 07:37-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ARZi/challenges.py:38
+msgid "Challenge Visibility is set to Admins Only"
+msgstr ""
+
+#: ARZi/challenges.py:41 ARZi/utils/decorators/__init__.py:39
+#, python-format
+msgid "%(ctf_name)s has not started yet"
+msgstr ""
+
+#: ARZi/challenges.py:44
+#, python-format
+msgid "%(ctf_name)s is paused"
+msgstr ""
+
+#: ARZi/challenges.py:47 ARZi/utils/decorators/__init__.py:31
+#, python-format
+msgid "%(ctf_name)s has ended"
+msgstr ""
+
+#: ARZi/forms/auth.py:21 ARZi/forms/self.py:21
+#: ARZi/themes/core-beta/templates/teams/private.html:329
+#: ARZi/themes/core-beta/templates/teams/public.html:95
+msgid "User Name"
+msgstr ""
+
+#: ARZi/forms/auth.py:23 ARZi/forms/auth.py:60 ARZi/forms/self.py:22
+#: ARZi/forms/teams.py:230
+msgid "Email"
+msgstr ""
+
+#: ARZi/forms/auth.py:24 ARZi/forms/auth.py:50 ARZi/forms/auth.py:67
+#: ARZi/forms/self.py:24 ARZi/forms/teams.py:231
+msgid "Password"
+msgstr ""
+
+#: ARZi/forms/auth.py:25 ARZi/forms/auth.py:51 ARZi/forms/auth.py:62
+#: ARZi/forms/auth.py:69 ARZi/forms/self.py:29 ARZi/forms/teams.py:154
+#: ARZi/forms/teams.py:237 ARZi/themes/core-beta/templates/challenge.html:147
+msgid "Submit"
+msgstr ""
+
+#: ARZi/forms/auth.py:46
+msgid "User Name or Email"
+msgstr ""
+
+#: ARZi/forms/auth.py:55
+msgid "Resend Confirmation Email"
+msgstr ""
+
+#: ARZi/forms/self.py:23 ARZi/forms/users.py:181
+msgid "Language"
+msgstr ""
+
+#: ARZi/forms/self.py:25
+msgid "Current Password"
+msgstr ""
+
+#: ARZi/forms/self.py:26 ARZi/forms/teams.py:140 ARZi/forms/teams.py:218
+#: ARZi/forms/teams.py:233 ARZi/forms/users.py:164
+#: ARZi/themes/core-beta/templates/teams/teams.html:51
+#: ARZi/themes/core-beta/templates/users/users.html:48
+msgid "Affiliation"
+msgstr ""
+
+#: ARZi/forms/self.py:27 ARZi/forms/teams.py:146 ARZi/forms/teams.py:219
+#: ARZi/forms/teams.py:232 ARZi/forms/users.py:165
+#: ARZi/themes/core-beta/templates/teams/teams.html:50
+#: ARZi/themes/core-beta/templates/users/users.html:47
+msgid "Website"
+msgstr ""
+
+#: ARZi/forms/self.py:28 ARZi/forms/teams.py:150 ARZi/forms/teams.py:234
+#: ARZi/themes/core-beta/templates/teams/teams.html:52
+#: ARZi/themes/core-beta/templates/users/users.html:49
+msgid "Country"
+msgstr ""
+
+#: ARZi/forms/self.py:59 ARZi/themes/core-beta/templates/settings.html:225
+msgid "Expiration"
+msgstr ""
+
+#: ARZi/forms/self.py:61
+msgid "Generate"
+msgstr ""
+
+#: ARZi/forms/setup.py:29
+msgid "Event Name"
+msgstr ""
+
+#: ARZi/forms/setup.py:29
+msgid "The name of your CTF event/workshop"
+msgstr ""
+
+#: ARZi/forms/setup.py:32
+msgid "Event Description"
+msgstr ""
+
+#: ARZi/forms/setup.py:32
+msgid "Description for the CTF"
+msgstr ""
+
+#: ARZi/forms/setup.py:35 ARZi/forms/setup.py:36
+msgid "User Mode"
+msgstr ""
+
+#: ARZi/forms/setup.py:36
+msgid "Team Mode"
+msgstr ""
+
+#: ARZi/forms/setup.py:39
+msgid ""
+"Controls whether users join together in teams to play (Team Mode) or play"
+" as themselves (User Mode)"
+msgstr ""
+
+#: ARZi/forms/setup.py:45
+msgid "Admin Username"
+msgstr ""
+
+#: ARZi/forms/setup.py:46
+msgid "Your username for the administration account"
+msgstr ""
+
+#: ARZi/forms/setup.py:50
+msgid "Admin Email"
+msgstr ""
+
+#: ARZi/forms/setup.py:51
+msgid "Your email address for the administration account"
+msgstr ""
+
+#: ARZi/forms/setup.py:55
+msgid "Admin Password"
+msgstr ""
+
+#: ARZi/forms/setup.py:56
+msgid "Your password for the administration account"
+msgstr ""
+
+#: ARZi/forms/setup.py:61
+msgid "Logo"
+msgstr ""
+
+#: ARZi/forms/setup.py:63
+msgid ""
+"Logo to use for the website instead of a CTF name. Used as the home page "
+"button. Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:67
+msgid "Banner"
+msgstr ""
+
+#: ARZi/forms/setup.py:67
+msgid "Banner to use for the homepage. Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:70
+msgid "Small Icon"
+msgstr ""
+
+#: ARZi/forms/setup.py:72
+msgid ""
+"favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. "
+"Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:76
+msgid "Theme"
+msgstr ""
+
+#: ARZi/forms/setup.py:77
+msgid "ARZi Theme to use. Can be changed later."
+msgstr ""
+
+#: ARZi/forms/setup.py:84
+msgid "Theme Color"
+msgstr ""
+
+#: ARZi/forms/setup.py:86
+msgid ""
+"Color used by theme to control aesthetics. Requires theme support. "
+"Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:91
+msgid "Verify Emails"
+msgstr ""
+
+#: ARZi/forms/setup.py:143
+msgid "Start Time"
+msgstr ""
+
+#: ARZi/forms/setup.py:144
+msgid "Time when your CTF is scheduled to start. Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:147
+msgid "End Time"
+msgstr ""
+
+#: ARZi/forms/setup.py:148
+msgid "Time when your CTF is scheduled to end. Optional."
+msgstr ""
+
+#: ARZi/forms/setup.py:150
+msgid "Finish"
+msgstr ""
+
+#: ARZi/forms/teams.py:102 ARZi/forms/teams.py:109 ARZi/forms/teams.py:127
+#: ARZi/forms/teams.py:229
+msgid "Team Name"
+msgstr ""
+
+#: ARZi/forms/teams.py:103 ARZi/forms/teams.py:110
+msgid "Team Password"
+msgstr ""
+
+#: ARZi/forms/teams.py:104 ARZi/forms/teams.py:289
+msgid "Join"
+msgstr ""
+
+#: ARZi/forms/teams.py:111
+msgid "Create"
+msgstr ""
+
+#: ARZi/forms/teams.py:128
+msgid "Your team's public name shown to other competitors"
+msgstr ""
+
+#: ARZi/forms/teams.py:131
+msgid "New Team Password"
+msgstr ""
+
+#: ARZi/forms/teams.py:131
+msgid "Set a new team join password"
+msgstr ""
+
+#: ARZi/forms/teams.py:134
+msgid "Confirm Current Team Password"
+msgstr ""
+
+#: ARZi/forms/teams.py:136
+msgid ""
+"Provide your current team password (or your password) to update your "
+"team's password"
+msgstr ""
+
+#: ARZi/forms/teams.py:142
+msgid "Your team's affiliation publicly shown to other competitors"
+msgstr ""
+
+#: ARZi/forms/teams.py:147
+msgid "Your team's website publicly shown to other competitors"
+msgstr ""
+
+#: ARZi/forms/teams.py:152
+msgid "Your team's country publicly shown to other competitors"
+msgstr ""
+
+#: ARZi/forms/teams.py:192
+msgid "Team Captain"
+msgstr ""
+
+#: ARZi/forms/teams.py:215 ARZi/forms/users.py:161
+msgid "Search Field"
+msgstr ""
+
+#: ARZi/forms/teams.py:217 ARZi/forms/users.py:163
+#: ARZi/themes/core-beta/templates/challenge.html:206
+msgid "Name"
+msgstr ""
+
+#: ARZi/forms/teams.py:224 ARZi/forms/users.py:171
+msgid "Parameter"
+msgstr ""
+
+#: ARZi/forms/teams.py:225 ARZi/forms/users.py:175
+msgid "Search"
+msgstr ""
+
+#: ARZi/forms/teams.py:235
+msgid "Hidden"
+msgstr ""
+
+#: ARZi/forms/teams.py:236
+msgid "Banned"
+msgstr ""
+
+#: ARZi/forms/teams.py:285
+msgid "Invite Link"
+msgstr ""
+
+#: ARZi/forms/users.py:133
+msgid "Bracket"
+msgstr ""
+
+#: ARZi/forms/users.py:134
+msgid "Competition bracket for your user"
+msgstr ""
+
+#: ARZi/forms/users.py:172
+msgid "Search for matching users"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/base.html:53
+msgid "Powered by ARZi"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:11
+#: ARZi/themes/core-beta/templates/teams/private.html:388
+#: ARZi/themes/core-beta/templates/teams/public.html:157
+#: ARZi/themes/core-beta/templates/users/private.html:124
+#: ARZi/themes/core-beta/templates/users/public.html:123
+msgid "Challenge"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:19
+#, python-format
+msgid "%(num)d Solve"
+msgid_plural "%(num)d Solves"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:77
+msgid "View Hint"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:120
+msgid "attempt"
+msgid_plural "attempts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:135
+msgid "Flag"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:169
+msgid "Next Challenge"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:175
+msgid "Share"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenge.html:207
+#: ARZi/themes/core-beta/templates/setup.html:305
+#: ARZi/themes/core-beta/templates/setup.html:326
+msgid "Date"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/challenges.html:7
+#: ARZi/themes/core-beta/templates/components/navbar.html:59
+msgid "Challenges"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/confirm.html:7
+msgid "Confirm"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/confirm.html:18
+msgid "We've sent a confirmation email to your email address."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/confirm.html:24
+msgid "Please click the link in that email to confirm your account."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/confirm.html:30
+msgid ""
+"If the email doesn’t arrive, check your spam folder or contact an "
+"administrator to manually verify your account."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/confirm.html:43
+msgid "Change Email Address"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:164
+#: ARZi/themes/core-beta/templates/components/navbar.html:169
+#: ARZi/themes/core-beta/templates/login.html:7
+msgid "Login"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/login.html:40
+msgid "Forgot your password?"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:85
+#: ARZi/themes/core-beta/templates/components/navbar.html:91
+#: ARZi/themes/core-beta/templates/notifications.html:7
+msgid "Notifications"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/notifications.html:14
+msgid "There are no notifications yet"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:151
+#: ARZi/themes/core-beta/templates/components/navbar.html:156
+#: ARZi/themes/core-beta/templates/register.html:7
+msgid "Register"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/register.html:35
+msgid "Your username on the site"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/register.html:43
+msgid "Never shown to the public"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/register.html:51
+msgid "Password used to log into your account"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/register.html:69
+#, python-format
+msgid ""
+"By registering, you agree to the <a href=\"%(privacy_link)s\" "
+"target=\"_blank\">privacy policy</a> and <a href=\"%(tos_link)s\" "
+"target=\"_blank\">terms of service</a>"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/reset_password.html:7
+msgid "Reset Password"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/reset_password.html:21
+msgid ""
+"You can now reset the password for your account and log in. Please enter "
+"in a new password below."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/reset_password.html:44
+msgid "Please provide the email address associated with your account below."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:52
+#: ARZi/themes/core-beta/templates/scoreboard.html:7
+msgid "Scoreboard"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/scoreboard.html:24
+msgid "All"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/scoreboard.html:36
+msgid "Place"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/scoreboard.html:38
+#: ARZi/themes/core-beta/templates/teams/private.html:330
+#: ARZi/themes/core-beta/templates/teams/public.html:96
+msgid "Score"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/scoreboard.html:60
+msgid "Scoreboard is empty"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:124
+#: ARZi/themes/core-beta/templates/components/navbar.html:129
+#: ARZi/themes/core-beta/templates/settings.html:8
+#: ARZi/themes/core-beta/templates/setup.html:50
+msgid "Settings"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:112
+#: ARZi/themes/core-beta/templates/components/navbar.html:117
+#: ARZi/themes/core-beta/templates/settings.html:21
+msgid "Profile"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:26
+msgid "Access Tokens"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:95
+msgid "Your profile has been updated"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:103
+#: ARZi/themes/core-beta/templates/teams/private.html:83
+#: ARZi/themes/core-beta/templates/teams/private.html:198
+msgid "Error:"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:129
+msgid "API Key Generated"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:137
+msgid "Please copy your API Key, it won't be shown again!"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:183
+msgid "Active Tokens"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:195
+msgid "Delete Token"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:204
+msgid "Are you sure you want to delete this token?"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:224
+msgid "Created"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:226
+msgid "Description"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/settings.html:227
+msgid "Delete"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:24
+msgid "Setup"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:44
+msgid "General"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:47
+msgid "Mode"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:53
+msgid "Administration"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:56
+msgid "Style"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:59
+msgid "Date &amp; Time"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:62
+msgid "Integrations"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:86
+#: ARZi/themes/core-beta/templates/setup.html:138
+#: ARZi/themes/core-beta/templates/setup.html:202
+#: ARZi/themes/core-beta/templates/setup.html:238
+#: ARZi/themes/core-beta/templates/setup.html:296
+#: ARZi/themes/core-beta/templates/setup.html:345
+msgid "Next"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:112
+msgid "Participants register accounts and form teams"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:113
+msgid "If a team member solves a challenge, the entire team receives credit"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:115
+msgid "Easier to see which team member solved a challenge"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:116
+msgid "May be slightly more difficult to administer"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:120
+msgid "Participants only register an individual account"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:121
+msgid "Players can share accounts to form pseudo-teams"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:123
+msgid "Easier to organize"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:124
+msgid "Difficult to attribute solutions to individual team members"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:143
+msgid "Visibility Settings"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:146
+msgid "Control the visibility of different sections of ARZi"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:232
+msgid "Subscribe email address to the ARZi LLC Newsletter for news and updates"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:309
+#: ARZi/themes/core-beta/templates/setup.html:330
+#: ARZi/themes/core-beta/templates/teams/private.html:391
+#: ARZi/themes/core-beta/templates/teams/public.html:160
+#: ARZi/themes/core-beta/templates/users/private.html:127
+#: ARZi/themes/core-beta/templates/users/public.html:126
+msgid "Time"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/setup.html:334
+msgid "UTC Preview"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:36
+#: ARZi/themes/core-beta/templates/users/users.html:6
+msgid "Users"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:43
+#: ARZi/themes/core-beta/templates/teams/teams.html:6
+msgid "Teams"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:72
+#: ARZi/themes/core-beta/templates/components/navbar.html:77
+msgid "Admin Panel"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:99
+#: ARZi/themes/core-beta/templates/components/navbar.html:104
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:6
+#: ARZi/themes/core-beta/templates/teams/teams.html:49
+msgid "Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:136
+#: ARZi/themes/core-beta/templates/components/navbar.html:141
+msgid "Logout"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:180
+msgid "Change language"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/components/navbar.html:199
+#: ARZi/themes/core-beta/templates/components/navbar.html:204
+msgid "Toggle theme"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/403.html:12
+msgid "403 Forbidden"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/404.html:9
+msgid "File not found"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/404.html:12
+msgid "404 Not Found"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/429.html:9
+msgid "Too many requests"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/429.html:10
+msgid "Please slow down!"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/429.html:13
+msgid "429 Too Many Requests"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/errors/502.html:12
+msgid "502 Bad Gateway"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/macros/forms.html:13
+#: ARZi/themes/core-beta/templates/macros/forms.html:36
+#: ARZi/themes/core-beta/templates/macros/forms.html:65
+msgid "(Optional)"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/invite.html:6
+#: ARZi/themes/core-beta/templates/teams/join_team.html:6
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:36
+msgid "Join Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/invite.html:15
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:12
+msgid "Welcome to"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/invite.html:19
+msgid "Click the button below to join the team!"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/new_team.html:6
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:39
+msgid "Create Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:8
+msgid "Edit Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:76
+msgid "Your team's profile has been updated"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:104
+msgid "Choose Captain"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:127
+msgid "Your captain rights have been transferred"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:152
+msgid "Invite Users"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:171
+msgid "Share this link with your team members for them to join your team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:174
+msgid "Invite links can be re-used and expire after 1 day"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:188
+msgid "Disband Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:193
+msgid "Are you sure you want to disband your team?"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:206
+msgid "No"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:207
+msgid "Yes"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:218
+#: ARZi/themes/core-beta/templates/teams/public.html:10
+#: ARZi/themes/core-beta/templates/users/private.html:21
+#: ARZi/themes/core-beta/templates/users/public.html:21
+#: ARZi/themes/core-beta/templates/users/users.html:70
+msgid "Official"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:260
+msgid "place"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:268
+msgid "points"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:325
+#: ARZi/themes/core-beta/templates/teams/public.html:91
+msgid "Members"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:345
+#: ARZi/themes/core-beta/templates/teams/public.html:110
+msgid "Captain"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:361
+#: ARZi/themes/core-beta/templates/teams/public.html:125
+#: ARZi/themes/core-beta/templates/users/private.html:98
+#: ARZi/themes/core-beta/templates/users/public.html:98
+msgid "Awards"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:384
+#: ARZi/themes/core-beta/templates/teams/public.html:153
+#: ARZi/themes/core-beta/templates/users/private.html:120
+msgid "Solves"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:389
+#: ARZi/themes/core-beta/templates/teams/public.html:158
+#: ARZi/themes/core-beta/templates/users/private.html:125
+#: ARZi/themes/core-beta/templates/users/public.html:124
+msgid "Category"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:390
+#: ARZi/themes/core-beta/templates/teams/public.html:159
+#: ARZi/themes/core-beta/templates/users/private.html:126
+#: ARZi/themes/core-beta/templates/users/public.html:125
+msgid "Value"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/private.html:481
+#: ARZi/themes/core-beta/templates/teams/public.html:248
+#: ARZi/themes/core-beta/templates/users/private.html:213
+#: ARZi/themes/core-beta/templates/users/public.html:214
+msgid "No solves yet"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:14
+msgid "In order to participate you must either join or create a team."
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:22
+msgid "Play with Official Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:27
+msgid "Join Unofficial Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/team_enrollment.html:30
+msgid "Create Unofficial Team"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/teams/teams.html:128
+#: ARZi/themes/core-beta/templates/users/users.html:118
+msgid "Page"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/users/users.html:14
+#, python-format
+msgid ""
+"Searching for users with <strong>%(field)s</strong> matching "
+"<strong>%(q)s</strong>"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/users/users.html:17
+#, python-format
+msgid "Page %(page)s of %(total)s results"
+msgstr ""
+
+#: ARZi/themes/core-beta/templates/users/users.html:46
+msgid "User"
+msgstr ""
+
+#: ARZi/utils/modes/__init__.py:35
+msgid "user"
+msgid_plural "users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ARZi/utils/modes/__init__.py:37
+msgid "team"
+msgid_plural "teams"
+msgstr[0] ""
+msgstr[1] ""
+

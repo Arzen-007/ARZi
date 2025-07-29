@@ -1,0 +1,16 @@
+ARZi/themes/**/vendor/
+ARZi/themes/core/
+ARZi/themes/core-beta/**/*
+ARZi/themes/admin/static/**/*
+*.html
+*.njk
+*.png
+*.svg
+*.ico
+*.ai
+*.svg
+*.mp3
+*.webm
+.pytest_cache
+venv*
+.venv*
